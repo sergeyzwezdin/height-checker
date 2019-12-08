@@ -1,0 +1,47 @@
+{
+  "name": "height-checker",
+  "version": "1.0.0",
+  "description": "Checks the height of DOM elements",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "lint": "tslint -c ./tslint.json './src/**/*.ts*'",
+    "format-check": "prettier --check \"src/**/*.ts*\"",
+    "format": "prettier --write \"src/**/*.ts*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyzwezdin/height-checker.git"
+  },
+  "author": "Sergey Zwezdin <sergey@zwezdin.com> (https://zwezdin.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergeyzwezdin/height-checker/issues"
+  },
+  "homepage": "https://github.com/sergeyzwezdin/height-checker#readme",
+  "keywords": [
+    "front-end",
+    "frontend",
+    "web",
+    "responsive",
+    "responsive-ui",
+    "mobile-first",
+    "layout",
+    "media query",
+    "media",
+    "matchmedia",
+    "match-media",
+    "debug"
+  ],
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "prettier": "^1.19.1",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "custom-event-polyfill": "^1.0.7"
+  }
+}
