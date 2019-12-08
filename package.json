@@ -1,6 +1,6 @@
 {
   "name": "height-checker",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Checks the height of DOM elements",
   "main": "dist/index.js",
   "scripts": {
@@ -28,11 +28,10 @@
     "responsive-ui",
     "mobile-first",
     "layout",
-    "media query",
-    "media",
-    "matchmedia",
-    "match-media",
     "debug"
+  ],
+  "files": [
+    "dist/**/*.*"
   ],
   "devDependencies": {
     "@types/node": "^12.12.14",
