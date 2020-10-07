@@ -41,6 +41,7 @@
     "typescript": "^3.7.3"
   },
   "dependencies": {
-    "custom-event-polyfill": "^1.0.7"
+    "custom-event-polyfill": "^1.0.7",
+    "minimist": "^1.2.5"
   }
 }
